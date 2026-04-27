@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "google-auth-library": "^10.6.2",
+    "node-rsa": "^1.1.1"
+  }
+}

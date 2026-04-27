@@ -1,0 +1,35 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    // 🔽 输出控制：精简产物
+    "declaration": false,           // 构建时无需生成 .d.ts 文件（开发时已生成或不需要）
+    "sourceMap": false,             // 关闭 source map，防止源码泄露；如需调试可设为 "hidden-source-map"
+    "inlineSources": false,         // 不将源码内联到 sourcemap（安全考虑）
+    "removeComments": true,         // 移除所有注释，减小打包体积
+
+    // 🔽 性能优化
+    "incremental": false,           // 构建时关闭增量编译（CI/CD 环境通常全量构建）
+    "diagnostics": false,           // 不输出编译性能诊断信息
+    "preserveWatchOutput": false    // 构建模式下无意义，关闭
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "test",
+    "tests",
+    "__tests__",
+    "*.spec.ts",                    // 排除所有测试文件
+    "**/*.spec.ts",
+    "*.e2e-spec.ts",
+    "**/*.e2e-spec.ts",
+    ".eslintrc.js",                 // 配置文件不参与构建
+    "jest.config.js",
+    "webpack.config.js",
+    "nest-cli.json",
+    "Dockerfile*",
+    ".env*.local",                  // 环境文件不应被打包
+    ".gitignore",
+    "README.md",
+    "LICENSE"
+  ]
+}

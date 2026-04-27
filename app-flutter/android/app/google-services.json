@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "659835706002",
+    "project_id": "wakme-60919",
+    "storage_bucket": "wakme-60919.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659835706002:android:95d45f3d737b56350ea44b",
+        "android_client_info": {
+          "package_name": "com.wakme.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659835706002-0lu2skr6chve5ihdph25s3b1qd70ccv7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wakme.app",
+            "certificate_hash": "7abe7cfd80d75e98fd90c0e46e27c9b83ae7432b"
+          }
+        },
+        {
+          "client_id": "659835706002-1jdovgbvhf526mv9vem9gddr8b4vaoju.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wakme.app",
+            "certificate_hash": "eb7b1ef414693953ccbcec0618210df6ec271fa2"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvIrRUkl2y3u_YMuB3kmyzR7isdD15xz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

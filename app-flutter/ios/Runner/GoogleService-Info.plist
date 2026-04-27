@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>185327100168-p800f549c6ughe407hffm3g6jup9nrpu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.185327100168-p800f549c6ughe407hffm3g6jup9nrpu</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>185327100168-iojvnn20ha4qglvk3q0bf14qfii62qu0.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDsFO42QcNO-8sdT8DFRIHvKF8-VDrHWUM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>185327100168</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.wakme.app</string>
+	<key>PROJECT_ID</key>
+	<string>mobisen-82cb1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mobisen-82cb1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:185327100168:ios:5778f5f028bca255ac0cbd</string>
+</dict>
+</plist>
