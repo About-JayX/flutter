@@ -204,7 +204,7 @@ class MyApp extends StatelessWidget {
             ],
             supportedLocales: S.delegate.supportedLocales,
             locale: localeProvider.locale,
-            initialRoute: RoutePaths.startup,
+            initialRoute: RoutePaths.interest,
             navigatorKey: Application.navigatorKey,
             navigatorObservers: [BotToastNavigatorObserver()],
             onGenerateRoute: AppRouter.generateRoute,

@@ -44,3 +44,5 @@ app.*.map.json
 
 # Ignore all build directories recursively
 **/build/
+
+/tmp

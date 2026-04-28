@@ -22,6 +22,7 @@ class RoutePaths {
   static const String videoCallReceiver = "/video-call-receiver";
   static const String videoCallActive = "/video-call-active";
   static const String vipSubscription = "/vip_subscription";
+  static const String interest = "/interest";
   static const String interestCards = "/interest-cards";
   static const String privacySettings = "/privacy-settings";
   static const String blockedUsers = "/blocked-users";
@@ -57,6 +58,7 @@ class RoutePaths {
     videoCallReceiver,
     videoCallActive,
     vipSubscription,
+    interest,
     interestCards,
     privacySettings,
     blockedUsers,
@@ -190,6 +192,7 @@ class TrackScreenNames {
   static const String videoCallReceiver = "video_call_receiver";
   static const String videoCallActive = "video_call_active";
   static const String vipSubscription = "vip_subscription";
+  static const String interest = "interest";
   static const String interestCards = "interest_cards";
   static const String matching = "matching";
   static const String privacySettings = "privacy_settings";

@@ -24,6 +24,7 @@ import 'package:mobisen_app/view/voice_call/voice_call_active_view.dart';
 import 'package:mobisen_app/view/video_call/video_call_caller_view.dart';
 import 'package:mobisen_app/view/video_call/video_call_receiver_view.dart';
 import 'package:mobisen_app/view/video_call/video_call_active_view.dart';
+import 'package:mobisen_app/view/interest/interest_view.dart';
 import 'package:mobisen_app/view/profile/vip_subscription_view.dart';
 import 'package:mobisen_app/view/matching/interest_cards_view.dart';
 import 'package:mobisen_app/view/matching/edit_card_view.dart';
@@ -172,6 +173,10 @@ class AppRouter {
         return _buildRoute(
             builder: (context) => const VIPSubscriptionView(),
             screenName: TrackScreenNames.vipSubscription);
+      case RoutePaths.interest:
+        return _buildRoute(
+            builder: (context) => const InterestView(),
+            screenName: TrackScreenNames.interest);
       case RoutePaths.interestCards:
         return _buildRoute(
             builder: (context) => const InterestCardsView(),
